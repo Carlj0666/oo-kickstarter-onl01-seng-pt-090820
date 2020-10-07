@@ -19,4 +19,6 @@ class Project
     @backers << backer
   end
   
+  #MORE ADVANCED
+  
 end
