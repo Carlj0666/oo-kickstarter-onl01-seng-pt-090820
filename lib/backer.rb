@@ -22,6 +22,5 @@ class Backer
     @backed_projects << project
   end
   
-  #MORE ADVANCED
 
 end
