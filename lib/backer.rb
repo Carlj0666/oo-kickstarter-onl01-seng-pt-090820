@@ -13,13 +13,13 @@ class Backer
   end
   
   
-  # def self.backed_projects
-  #   @backed_projects
-  # end
+  def self.backed_projects
+    @backed_projects
+  end
   
   
-  # def back_project(project)
-  #   @backed_projects << Project
-  # end
+  def back_project(project)
+    backed_projects << Project
+  end
 
 end
