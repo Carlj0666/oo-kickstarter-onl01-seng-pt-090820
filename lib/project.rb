@@ -14,9 +14,9 @@ class Project
     @backers
   end
   
-  def add_backer(backer)
-    binding.pry
-    backers << backer
+  def add_backer(Backer.new)
+
+    @backers << Backer.new
   end
   
 end
