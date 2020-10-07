@@ -15,10 +15,10 @@ class Project
   end
   
   def add_backer(backer)
-
     @backers << backer
+    
   end
   
-  #MORE ADVANCED
+
   
 end
